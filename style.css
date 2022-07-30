@@ -41,7 +41,8 @@
 .name-group,
 .button-group,
 .grp1,
-.grp2 {
+.grp2,
+.project-heading {
   display: flex;
 }
 .element {
@@ -127,16 +128,24 @@ p {
   display: grid;
   grid-template-columns: repeat(3,1fr);
   gap: 16px;
+  /* ? potentially align with grid-area */
 }
 .orange {
   border-left: 4px solid orange;
 }
 .card {
   background-color: #fff; 
+  border-radius: 8px;
 }
-#projects-heading {
+.project-heading {
+  align-items: center;
+  margin-bottom: -2rem;
+  /* padding: 1rem; */
+  /* justify-content: center; */
+}
+.projects-col-heading {
   grid-column: span 2;
 }
-.col-span-2 {
+.row-span-2 {
   grid-row: span 2;
 }
