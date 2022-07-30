@@ -30,12 +30,10 @@
   font-size: 2rem;
   font-weight: 800;
 }
-.sidebar-elements {
-  flex-direction: column;
-}
+
 .icon {
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 2rem;
+  height: 2rem;
   fill: #fff;
 }
 #heading-icon {
@@ -45,10 +43,7 @@
 .grp1 , .grp2 {
   padding: 1rem;
 }
-.element {
-  justify-content: center;
-  align-items: center;
-}
+
 
 .main-content {
   background-color: #d3d3d3;
