@@ -1,7 +1,12 @@
-* {
+*  {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+.header,
+.sidebar,
+.main-content {
+  border: 10px solid rgb(61, 245, 61);
 }
 .container {
   display: grid;
@@ -15,11 +20,6 @@
   color: #fff;
 }
 
-.header,
-.sidebar,
-.main-content {
-  border: 10px solid orange;
-}
 
 .header {
   grid-column: span 3;
