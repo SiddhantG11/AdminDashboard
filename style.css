@@ -20,6 +20,7 @@
   color: #fff;
 }
 
+
 .heading-icon-container {
   padding: 1rem;
 }
@@ -39,6 +40,11 @@
   width: 2rem;
   height: 2rem;
   fill: #fff;
+}
+.element {
+  display: flex;
+  padding-bottom: 1rem;
+  align-items: center;
 }
 
 .main-content {
