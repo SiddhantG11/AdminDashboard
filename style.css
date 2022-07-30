@@ -20,30 +20,26 @@
   color: #fff;
 }
 
-
-.header {
-  grid-column: span 3;
+.heading-icon-container {
+  padding: 1rem;
 }
-
 
 .sidebar-heading {
   font-size: 2rem;
   font-weight: 800;
 }
 
+.header {
+  grid-column: span 3;
+}
+.bottom-3-icons , .top-icons {
+  padding: 2rem;
+}
 .icon {
   width: 2rem;
   height: 2rem;
   fill: #fff;
 }
-#heading-icon {
-  width: 2rem;
-  height: 2rem;
-}
-.grp1 , .grp2 {
-  padding: 1rem;
-}
-
 
 .main-content {
   background-color: #d3d3d3;
