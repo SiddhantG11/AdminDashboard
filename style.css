@@ -45,6 +45,7 @@
   display: flex;
   padding-bottom: 1rem;
   align-items: center;
+  gap: 16px;
 }
 
 .main-content {
