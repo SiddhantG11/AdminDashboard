@@ -50,8 +50,8 @@
   gap: 16px;
 }
 p {
-  font-weight: 800;
-  font-size: 1.5rem;
+  /* font-weight: 800; */
+  font-size: 1rem;
 }
 .header {
   display: grid;
@@ -82,7 +82,7 @@ p {
   height: 96px;
   border-radius: 50%;
 }
-.dog-name {
+.name-bold {
   /* TODO collect all font-size and weight in one class */
   font-size: 1rem;
   font-weight: 800;
@@ -126,4 +126,17 @@ p {
   background-color: #d3d3d3;
   display: grid;
   grid-template-columns: repeat(3,1fr);
+  gap: 16px;
+}
+.orange {
+  border-left: 4px solid orange;
+}
+.card {
+  background-color: #fff; 
+}
+#projects-heading {
+  grid-column: span 2;
+}
+.col-span-2 {
+  grid-row: span 2;
 }
