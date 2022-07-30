@@ -90,7 +90,9 @@ p {
 
 .top-layer,
 .bottom-layer {
-  padding-left: 1.5rem;
+  /* todo make this one line of code  */
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 .bottom-layer,
 .button-group,
@@ -120,6 +122,8 @@ p {
 }
 
 .main-content {
-  background-color: #d3d3d3;
   grid-column: span 3;
+  background-color: #d3d3d3;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
 }
