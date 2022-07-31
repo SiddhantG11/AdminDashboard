@@ -1,11 +1,16 @@
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+body{
+overflow: hidden;
+
+}
+
 .container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  height: 100vh;
 }
 .sidebar {
   display: grid;
